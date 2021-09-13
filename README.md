@@ -1,6 +1,6 @@
 # Faster and Cheaper Serverless Computing on Harvested Resources
 
-This repository contains the codes of real system experiments in the SOSP'21 paper "Faster and Cheaper Serverless Computing on Harvested Resources", and specifically, it contains the codes to deploy OpenWhisk on Azure and to run experiments. The codes of modified versions of OpenWhisk are in <https://github.com/zyqCSL/openwhisk_archive>, and the benchmarks are in <https://github.com/zyqCSL/openwhisk_workloads>.
+This repository contains the codes of real system experiments in the SOSP'21 paper "<strong>Faster and Cheaper Serverless Computing on Harvested Resources</strong>", and specifically, it contains the codes to deploy OpenWhisk on Azure and to run experiments. The codes of modified versions of OpenWhisk are in <https://github.com/zyqCSL/openwhisk_archive>, and the benchmarks are in <https://github.com/zyqCSL/openwhisk_workloads>.
 
 There is also another repository for the paper, which contains the analysis codes and an anonymized subset of the traces <>.
 
