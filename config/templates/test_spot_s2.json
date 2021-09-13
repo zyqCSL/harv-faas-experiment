@@ -1,0 +1,316 @@
+{
+    "host_node": "node-0",
+    "nodes": {
+        "node-0": {
+            "size": "Standard_D32s_v3"
+        },
+        "node-1": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-10": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-11": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-12": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-13": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-14": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-15": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-16": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-17": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-18": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-19": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-2": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-20": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-21": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-22": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-23": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-24": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-25": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-26": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-27": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-28": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-29": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-3": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-30": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-31": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-32": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-33": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-34": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-35": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-36": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-37": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-38": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-39": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-4": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-40": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-41": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-42": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-43": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-44": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-45": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-46": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-47": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-48": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-49": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-5": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-50": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-51": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-52": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-53": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-54": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-55": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-56": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-57": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-58": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-59": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-6": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-60": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-61": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-62": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-63": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-64": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-65": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-66": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-67": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-68": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-69": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-7": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-70": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-71": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-72": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-73": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-74": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-75": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-8": {
+            "size": "Standard_D2s_v3"
+        },
+        "node-9": {
+            "size": "Standard_D2s_v3"
+        }
+    },
+    "openwhisk_roles": {
+        "controllers": {
+            "controller0": "node-0",
+            "controller1": "node-0"
+        },
+        "invokers": {
+            "invoker0": "node-1",
+            "invoker1": "node-2",
+            "invoker10": "node-11",
+            "invoker11": "node-12",
+            "invoker12": "node-13",
+            "invoker13": "node-14",
+            "invoker14": "node-15",
+            "invoker15": "node-16",
+            "invoker16": "node-17",
+            "invoker17": "node-18",
+            "invoker18": "node-19",
+            "invoker19": "node-20",
+            "invoker2": "node-3",
+            "invoker20": "node-21",
+            "invoker21": "node-22",
+            "invoker22": "node-23",
+            "invoker23": "node-24",
+            "invoker24": "node-25",
+            "invoker25": "node-26",
+            "invoker26": "node-27",
+            "invoker27": "node-28",
+            "invoker28": "node-29",
+            "invoker29": "node-30",
+            "invoker3": "node-4",
+            "invoker30": "node-31",
+            "invoker31": "node-32",
+            "invoker32": "node-33",
+            "invoker33": "node-34",
+            "invoker34": "node-35",
+            "invoker35": "node-36",
+            "invoker36": "node-37",
+            "invoker37": "node-38",
+            "invoker38": "node-39",
+            "invoker39": "node-40",
+            "invoker4": "node-5",
+            "invoker40": "node-41",
+            "invoker41": "node-42",
+            "invoker42": "node-43",
+            "invoker43": "node-44",
+            "invoker44": "node-45",
+            "invoker45": "node-46",
+            "invoker46": "node-47",
+            "invoker47": "node-48",
+            "invoker48": "node-49",
+            "invoker49": "node-50",
+            "invoker5": "node-6",
+            "invoker50": "node-51",
+            "invoker51": "node-52",
+            "invoker52": "node-53",
+            "invoker53": "node-54",
+            "invoker54": "node-55",
+            "invoker55": "node-56",
+            "invoker56": "node-57",
+            "invoker57": "node-58",
+            "invoker58": "node-59",
+            "invoker59": "node-60",
+            "invoker6": "node-7",
+            "invoker60": "node-61",
+            "invoker61": "node-62",
+            "invoker62": "node-63",
+            "invoker63": "node-64",
+            "invoker64": "node-65",
+            "invoker65": "node-66",
+            "invoker66": "node-67",
+            "invoker67": "node-68",
+            "invoker68": "node-69",
+            "invoker69": "node-70",
+            "invoker7": "node-8",
+            "invoker70": "node-71",
+            "invoker71": "node-72",
+            "invoker72": "node-73",
+            "invoker73": "node-74",
+            "invoker74": "node-75",
+            "invoker8": "node-9",
+            "invoker9": "node-10"
+        }
+    }
+}

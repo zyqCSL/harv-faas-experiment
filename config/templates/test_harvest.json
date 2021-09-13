@@ -1,0 +1,116 @@
+{
+    "host_node": "node-0",
+    "nodes": {
+        "node-0": {
+            "size": "Standard_D32s_v3"
+        },
+        "node-1": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-10": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-11": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-12": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-13": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-14": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-15": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-16": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-17": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-18": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-19": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-2": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-20": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-21": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-22": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-23": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-24": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-25": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-3": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-4": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-5": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-6": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-7": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-8": {
+            "size": "Harvest_E2s_v3"
+        },
+        "node-9": {
+            "size": "Harvest_E2s_v3"
+        }
+    },
+    "openwhisk_roles": {
+        "controllers": {
+            "controller0": "node-0",
+            "controller1": "node-0"
+        },
+        "invokers": {
+            "invoker0": "node-1",
+            "invoker1": "node-2",
+            "invoker10": "node-11",
+            "invoker11": "node-12",
+            "invoker12": "node-13",
+            "invoker13": "node-14",
+            "invoker14": "node-15",
+            "invoker15": "node-16",
+            "invoker16": "node-17",
+            "invoker17": "node-18",
+            "invoker18": "node-19",
+            "invoker19": "node-20",
+            "invoker2": "node-3",
+            "invoker20": "node-21",
+            "invoker21": "node-22",
+            "invoker22": "node-23",
+            "invoker23": "node-24",
+            "invoker24": "node-25",
+            "invoker3": "node-4",
+            "invoker4": "node-5",
+            "invoker5": "node-6",
+            "invoker6": "node-7",
+            "invoker7": "node-8",
+            "invoker8": "node-9",
+            "invoker9": "node-10"
+        }
+    }
+}

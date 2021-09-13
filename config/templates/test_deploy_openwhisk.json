@@ -1,0 +1,40 @@
+{
+    "host_node": "node-0",
+    "nodes": {
+        "node-0": {
+            "size": "Standard_D48s_v3"
+        },
+        "node-1": {
+            "size": "Standard_D32s_v3"
+        },
+        "node-2": {
+            "size": "Standard_D32s_v3"
+        },
+        "node-3": {
+            "size": "Standard_D32s_v3"
+        },
+        "node-4": {
+            "size": "Standard_D32s_v3"
+        },
+        "node-5": {
+            "size": "Standard_D32s_v3"
+        },
+        "node-6": {
+            "size": "Standard_D32s_v3"
+        }
+    },
+    "openwhisk_roles": {
+        "controllers": {
+            "controller0": "node-0",
+            "controller1": "node-0"
+        },
+        "invokers": {
+            "invoker0": "node-1",
+            "invoker1": "node-2",
+            "invoker2": "node-3",
+            "invoker3": "node-4",
+            "invoker4": "node-5",
+            "invoker5": "node-6"
+        }
+    }
+}

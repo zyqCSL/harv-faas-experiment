@@ -1,0 +1,20 @@
+{
+    "host_node": "node-0",
+    "nodes": {
+        "node-0": {
+            "size": "Standard_D32s_v3"
+        },
+        "node-1": {
+            "size": "Standard_D48s_v3"
+        }
+    },
+    "openwhisk_roles": {
+        "controllers": {
+            "controller0": "node-0",
+            "controller1": "node-0"
+        },
+        "invokers": {
+            "invoker0": "node-1"
+        }
+    }
+}

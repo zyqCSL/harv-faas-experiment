@@ -1,0 +1,112 @@
+{
+    "host_node": "node-0",
+    "nodes": {
+        "node-0": {
+            "role": "controller",
+            "size": "Standard_D32s_v3"
+        },
+        "node-1": {
+            "role": "invoker5",
+            "size": "Standard_D8s_v3"
+        },
+        "node-10": {
+            "role": "invoker244",
+            "size": "Standard_D8s_v3"
+        },
+        "node-11": {
+            "role": "invoker293",
+            "size": "Standard_D8s_v3"
+        },
+        "node-12": {
+            "role": "invoker314",
+            "size": "Standard_D8s_v3"
+        },
+        "node-13": {
+            "role": "invoker331",
+            "size": "Standard_D8s_v3"
+        },
+        "node-14": {
+            "role": "invoker365",
+            "size": "Standard_D8s_v3"
+        },
+        "node-15": {
+            "role": "invoker391",
+            "size": "Standard_D8s_v3"
+        },
+        "node-16": {
+            "role": "invoker415",
+            "size": "Standard_D8s_v3"
+        },
+        "node-17": {
+            "role": "invoker427",
+            "size": "Standard_D8s_v3"
+        },
+        "node-18": {
+            "role": "invoker457",
+            "size": "Standard_D8s_v3"
+        },
+        "node-19": {
+            "role": "invoker474",
+            "size": "Standard_D8s_v3"
+        },
+        "node-2": {
+            "role": "invoker12",
+            "size": "Standard_D8s_v3"
+        },
+        "node-3": {
+            "role": "invoker27",
+            "size": "Standard_D8s_v3"
+        },
+        "node-4": {
+            "role": "invoker58",
+            "size": "Standard_D8s_v3"
+        },
+        "node-5": {
+            "role": "invoker66",
+            "size": "Standard_D8s_v3"
+        },
+        "node-6": {
+            "role": "invoker176",
+            "size": "Standard_D8s_v3"
+        },
+        "node-7": {
+            "role": "invoker190",
+            "size": "Standard_D8s_v3"
+        },
+        "node-8": {
+            "role": "invoker227",
+            "size": "Standard_D8s_v3"
+        },
+        "node-9": {
+            "role": "invoker238",
+            "size": "Standard_D8s_v3"
+        }
+    },
+    "openwhisk_roles": {
+        "controllers": {
+            "controller0": "node-0",
+            "controller1": "node-0"
+        },
+        "invokers": {
+            "invoker12": "node-2",
+            "invoker176": "node-6",
+            "invoker190": "node-7",
+            "invoker227": "node-8",
+            "invoker238": "node-9",
+            "invoker244": "node-10",
+            "invoker27": "node-3",
+            "invoker293": "node-11",
+            "invoker314": "node-12",
+            "invoker331": "node-13",
+            "invoker365": "node-14",
+            "invoker391": "node-15",
+            "invoker415": "node-16",
+            "invoker427": "node-17",
+            "invoker457": "node-18",
+            "invoker474": "node-19",
+            "invoker5": "node-1",
+            "invoker58": "node-4",
+            "invoker66": "node-5"
+        }
+    }
+}

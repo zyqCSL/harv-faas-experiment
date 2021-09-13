@@ -1,0 +1,142 @@
+{
+    "host_node": "node-0",
+    "nodes": {
+        "node-0": {
+            "role": "controller",
+            "size": "Standard_D32s_v3"
+        },
+        "node-1": {
+            "role": "invoker18",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-10": {
+            "role": "invoker135",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-11": {
+            "role": "invoker137",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-12": {
+            "role": "invoker222",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-13": {
+            "role": "invoker235",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-14": {
+            "role": "invoker291",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-15": {
+            "role": "invoker299",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-16": {
+            "role": "invoker301",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-17": {
+            "role": "invoker337",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-18": {
+            "role": "invoker338",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-2": {
+            "role": "invoker19",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-21": {
+            "role": "invoker394",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-23": {
+            "role": "invoker411",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-24": {
+            "role": "invoker427",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-25": {
+            "role": "invoker494",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-26": {
+            "role": "invoker24",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-27": {
+            "role": "invoker296",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-28": {
+            "role": "invoker333",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-3": {
+            "role": "invoker23",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-4": {
+            "role": "invoker38",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-5": {
+            "role": "invoker59",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-6": {
+            "role": "invoker70",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-7": {
+            "role": "invoker71",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-8": {
+            "role": "invoker92",
+            "size": "Harvest_E2s_v3"
+        },
+        "node-9": {
+            "role": "invoker125",
+            "size": "Harvest_E2s_v3"
+        }
+    },
+    "openwhisk_roles": {
+        "controllers": {
+            "controller0": "node-0",
+            "controller1": "node-0"
+        },
+        "invokers": {
+            "invoker125": "node-9",
+            "invoker135": "node-10",
+            "invoker137": "node-11",
+            "invoker18": "node-1",
+            "invoker19": "node-2",
+            "invoker222": "node-12",
+            "invoker23": "node-3",
+            "invoker235": "node-13",
+            "invoker24": "node-26",
+            "invoker291": "node-14",
+            "invoker296": "node-27",
+            "invoker299": "node-15",
+            "invoker301": "node-16",
+            "invoker333": "node-28",
+            "invoker337": "node-17",
+            "invoker338": "node-18",
+            "invoker38": "node-4",
+            "invoker394": "node-21",
+            "invoker411": "node-23",
+            "invoker427": "node-24",
+            "invoker494": "node-25",
+            "invoker59": "node-5",
+            "invoker70": "node-6",
+            "invoker71": "node-7",
+            "invoker92": "node-8"
+        }
+    }
+}

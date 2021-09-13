@@ -1,0 +1,100 @@
+{
+    "host_node": "node-0",
+    "nodes": {
+        "node-0": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-1": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-10": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-11": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-12": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-13": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-14": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-15": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-16": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-17": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-18": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-19": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-2": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-20": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-21": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-3": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-4": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-5": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-6": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-7": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-8": {
+            "size": "Standard_D16s_v3"
+        },
+        "node-9": {
+            "size": "Standard_D16s_v3"
+        }
+    },
+    "openwhisk_roles": {
+        "controllers": {
+            "controller0": "node-0",
+            "controller1": "node-0"
+        },
+        "invokers": {
+            "invoker117": "node-4",
+            "invoker131": "node-5",
+            "invoker144": "node-6",
+            "invoker156": "node-7",
+            "invoker210": "node-8",
+            "invoker246": "node-9",
+            "invoker28": "node-1",
+            "invoker30": "node-2",
+            "invoker300": "node-10",
+            "invoker309": "node-11",
+            "invoker316": "node-12",
+            "invoker324": "node-13",
+            "invoker33": "node-3",
+            "invoker335": "node-14",
+            "invoker390": "node-15",
+            "invoker392": "node-16",
+            "invoker401": "node-17",
+            "invoker466": "node-18",
+            "invoker469": "node-19",
+            "invoker480": "node-20",
+            "invoker497": "node-21"
+        }
+    }
+}
