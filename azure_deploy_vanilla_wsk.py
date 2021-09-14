@@ -159,7 +159,7 @@ logging.basicConfig(level=logging.INFO,
 location = 'westus2'
 default_vm_size = 'Standard_D16s_v3'
 invoker_vm_size = default_vm_size
-startup_script_path = Path.home() / 'azure-serverless' / 'scripts' / 'startup.sh'
+startup_script_path = Path.cwd() / 'scripts' / 'startup.sh'
 
 # -----------------------------------------------------------------------
 # parser args definition
@@ -212,8 +212,8 @@ wsk_auth = '23bc46b1-71f6-4ed5-8c54-816aa4f8c502:123zO3xZCLrMN6v2BKK1dXYFpXlPkcc
 # -----------------------------------------------------------------------
 # ssh-keygen
 # -----------------------------------------------------------------------
-rsa_public_key = Path.home() / 'azure-serverless' / 'keys' / 'id_rsa.pub'
-rsa_private_key = Path.home() / 'azure-serverless' / 'keys' / 'id_rsa'
+rsa_public_key = Path.cwd() / 'keys' / 'id_rsa.pub'
+rsa_private_key = Path.cwd() / 'keys' / 'id_rsa'
 if init_vms:
     logging.info('generate ssh keys')
     if rsa_private_key.exists():
@@ -227,8 +227,7 @@ if init_vms:
 # -----------------------------------------------------------------------
 # gcloud compute instances create
 # -----------------------------------------------------------------------
-# startup_script_path = Path.home() / 'azure-serverless' / 'scripts' / 'startup.sh'
-public_key_path = Path.home() / 'azure-serverless' / 'keys' / 'id_rsa.pub'
+public_key_path = Path.cwd() / 'keys' / 'id_rsa.pub'
 
 external_ips = {}
 internal_ips = {}
@@ -270,8 +269,8 @@ if init_vms:
         t.join()
     logging.info('init_vms finished')
 
-external_ip_path = Path.home() / 'azure-serverless' / 'logs' / 'external_ip.json'
-internal_ip_path = Path.home() / 'azure-serverless' / 'logs' / 'internal_ip.json'
+external_ip_path = Path.cwd() / 'logs' / 'external_ip.json'
+internal_ip_path = Path.cwd() / 'logs' / 'internal_ip.json'
 if init_vms:
     with open(str(external_ip_path), "w+") as f:
         json.dump(external_ips, f, indent=4, sort_keys=True)
