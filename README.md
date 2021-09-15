@@ -32,7 +32,7 @@ Before running the deployment scripts, please make sure to specify Azure usernam
 
 ### Comparison of load balancing algorithms
 
-This set of experiments compare the performance of different load balancing algorithms ( *Min-worker-set*, *Join-the-shortest queue* and *Vanilla OpenWhisk*)
+This set of experiments compare the performance of different load balancing algorithms ( *Min-worker-set*, *Join-the-shortest-queue* and *Vanilla OpenWhisk*)
 
 To create VMs and deploy OpenWhisk, run one of the following scripts, corresponding to the tested load balancing algorithm.
 
