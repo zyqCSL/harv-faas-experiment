@@ -54,7 +54,7 @@ To create VMs and deploy OpenWhisk, run one of the following scripts, correspond
 ./exe_scripts/perfcomp_lb_openwhisk_mem.sh
 ```
 
-To run the performance experimence, log into the host node (specified as `host_node` in the json configuration file in `config` and ususally `node-0`), with the ssh keys saved in directory `keys` (ssh -i keys/id_rsa USER@IP). IP of the host node (and all other nodes) can be found in `logs/external_ip.json`. . You can change the experiment time of each concurrent user number with `--exp-time` argument, and change tested number of concurrent users by changing the `users` loop in the `run_locust_loop.py` script.
+To run the performance experimence, log into the host node (specified as `host_node` in the json configuration file in `config` and ususally `node-0`), with the ssh keys saved in directory `keys` (ssh -i keys/id_rsa USER@IP). IP of the host node (and all other nodes) can be found in `logs/external_ip.json`. . You can change the experiment time of each concurrent user number with `--exp-time` argument, and pleast make sure to change tested number of concurrent users by changing the `users` loop in the `run_locust_loop*.py` script, in order to match your user workload specification.
 
 When the experiments complete, invoker CPU usage data is saved in `invoker_logs_users_N`, and invocation latency data is saved in `openwhisk_locust_log_users_N`, both on the host node.
 
