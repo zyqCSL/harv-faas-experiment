@@ -14,7 +14,7 @@ There is also another repository for the paper, which contains the analysis code
 
 - `azure_deploy_*` creates Azure VMs, deploys OpenWhisk and sets up MinIO and benchmark
 
-- `azure_autoscale_*` is the control plane of real Harvest and Spot VM experiments. It keeps track of the total CPU number in the cluster, and creates new VMs to make up for the lost CPUs due to VM eviction and shrinkage.
+- `azure_autoscale_*` is the resouce monitor of real Harvest and Spot VM experiments. It keeps track of the total CPU number in the cluster, and creates new VMs to make up for the lost CPUs due to VM eviction and shrinkage.
 
 - `config` contains files of the cluster and OpenWhisk deployment
 
